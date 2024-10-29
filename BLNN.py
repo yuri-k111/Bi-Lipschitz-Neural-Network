@@ -6,6 +6,7 @@ import time
 import torch.nn.init as init
 
 #from https://github.com/yixinwang/lidvae-public
+# To implement Theorem 3.7 for more efficient backpropagation, we recommend to incorporate this skeleton into the DEQ framework https://github.com/locuslab/deq
 class PositiveLinear(nn.Module):
     def __init__(self, in_features, out_features, use_bias=False):
         super(PositiveLinear, self).__init__()
