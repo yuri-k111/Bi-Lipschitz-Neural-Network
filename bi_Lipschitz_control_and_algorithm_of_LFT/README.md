@@ -1,4 +1,4 @@
-This folder is a direct copy of the following github:
+This folder is based on the following github:
 
 https://github.com/acfr/LBDN
 
